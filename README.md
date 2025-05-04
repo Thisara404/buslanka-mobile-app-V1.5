@@ -43,20 +43,20 @@ Backend/ ├── api/ # API routes organized by resource │ ├── auth/ #
 
 2. **Installation**
 
-# ```bash
+### ```bash
 
-# Clone the repository
+### Clone the repository
 
 git clone <repository-url>
 cd Backend
 
-# Install dependencies
+### Install dependencies
 
 npm install
 
-# Set up environment variables
+### Set up environment variables
 
-# Create a .env file with the following variables:
+### Create a .env file with the following variables:
 
 PORT=3001
 NODE_ENV=development
@@ -68,13 +68,13 @@ PAYPAL_CLIENT_ID=your_paypal_client_id
 PAYPAL_CLIENT_SECRET=your_paypal_client_secret
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
-# Start the development server
+### Start the development server
 
 npm run dev
 
-### API Documentation
+## API Documentation
 
-# Authentication Endpoints
+### Authentication Endpoints
 
 POST /api/auth/driver/register - Register a new driver
 POST /api/auth/driver/login - Login as a driver
@@ -82,52 +82,52 @@ POST /api/auth/passenger/register - Register a new passenger
 POST /api/auth/passenger/login - Login as a passenger
 POST /api/auth/forgot-password - Request password reset
 POST /api/auth/reset-password - Reset password with token
-# User Management
+### User Management
 GET /api/users/driver/profile - Get driver profile
 GET /api/users/passenger/profile - Get passenger profile
 PUT /api/users/driver/profile - Update driver profile
 PUT /api/users/passenger/profile - Update passenger profile
 PUT /api/users/password - Change user password
-# Routes
+### Routes
 GET /api/routes - List all routes
 GET /api/routes/:id - Get route details
 POST /api/routes - Create a new route (admin/driver only)
 PUT /api/routes/:id - Update a route (admin/driver only)
 DELETE /api/routes/:id - Delete a route (admin only)
-# Schedules
+### Schedules
 GET /api/schedules - List all schedules
 GET /api/schedules/:id - Get schedule details
 POST /api/schedules - Create a new schedule (admin only)
 PUT /api/schedules/:id - Update a schedule (admin only)
 DELETE /api/schedules/:id - Delete a schedule (admin only)
-# Journeys
+### Journeys
 POST /api/journeys/start - Start a journey (driver only)
 PUT /api/journeys/:id/update-location - Update journey location (driver only)
 PUT /api/journeys/:id/complete - Complete a journey (driver only)
 GET /api/journeys/active - Get active journeys
 GET /api/journeys/:id - Get journey details
-# Payments
+### Payments
 POST /api/payments/create - Create a payment
 GET /api/payments/success - Payment success callback
 GET /api/payments/cancel - Payment cancel callback
 GET /api/payments/history - Get payment history
 
-### Frontend (Mobile App)
-# Technologies Used
+# Frontend (Mobile App)
+### Technologies Used
 Framework: Flutter
 State Management: Provider
 Maps and Location: Google Maps Flutter, Geolocator
 Network: HTTP package, WebSockets
 Storage: Shared Preferences
 UI Components: Material Design, Custom Widgets
-# Key Features
+### Key Features
 User registration and authentication
 Real-time bus tracking on map
 Schedule viewing and journey planning
 Secure in-app payments
 Multi-language support
 Dark/Light theme switching
-# Project Structure
+### Project Structure
 Frontend/to_do/
 ├── lib/                 # Dart source code
 │   ├── config/          # App configuration
@@ -152,28 +152,28 @@ Frontend/to_do/
 │   └── translations/    # Translation files
 └── pubspec.yaml         # Dependencies and app metadata
 
-### Getting Started with Frontend
-# Prerequisites
+# Getting Started with Frontend
+### Prerequisites
 
 Flutter SDK (3.0.0 or higher)
 Android Studio / Visual Studio Code
 Android SDK / Xcode (for iOS development)
 Google Maps API Key
 
-# Installation
-# Navigate to the Flutter project directory
+### Installation
+### Navigate to the Flutter project directory
 cd Frontend/to_do
 
-# Install dependencies
+### Install dependencies
 flutter pub get
 
-# Configure API keys
-# Create config file at lib/config/config.dart with your API keys
+### Configure API keys
+### Create config file at lib/config/config.dart with your API keys
 
-# Run the application
+### Run the application
 flutter run
 
-### Main App Features
+## Main App Features
 1. Authentication
 
 User login and registration
@@ -209,24 +209,24 @@ Theme customization (dark/light mode)
 Notification preferences
 Account management
 
-### Development and Deployment
-# Development Environment
+## Development and Deployment
+### Development Environment
 
 * Backend: Node.js development server with Nodemon for auto-reload
 * Frontend: Flutter development with hot reload
 
-# Deployment
-# Backend Deployment
+## Deployment
+### Backend Deployment
 Deploy to a Node.js hosting service (Heroku, DigitalOcean, AWS)
 Set up MongoDB Atlas for database
 Configure environment variables for production
 
-# Frontend Deployment
+### Frontend Deployment
 Build Android APK: flutter build apk --release
 Build iOS IPA: Use Xcode to archive and distribute
 Publish to app stores following the respective guidelines
 
-# Contributing
+### Contributing
 1. Fork the repository
 2. Create your feature branch (git checkout -b feature/amazing-feature)
 3. Commit your changes (git commit -m 'Add some amazing feature')
