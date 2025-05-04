@@ -1,0 +1,16 @@
+[2025-05-03T11:44:34.066Z] INFO: Journey booked: 681601a1e98377505288924c by passenger: 68138f5aace926738f2000d8
+[2025-05-03T11:46:20.894Z] INFO: Journey booked: 6816020ce98377505288926c by passenger: 68138f5aace926738f2000d8
+[2025-05-03T11:46:21.323Z] INFO: Journey booked: 6816020de983775052889279 by passenger: 68138f5aace926738f2000d8
+[2025-05-03T11:46:21.721Z] INFO: Journey booked: 6816020de983775052889286 by passenger: 68138f5aace926738f2000d8
+[2025-05-03T11:46:59.373Z] INFO: Journey booked: 68160233e9837750528892a6 by passenger: 67f421b8dcd88561858c78f5
+[2025-05-03T11:46:59.774Z] INFO: Journey booked: 68160233e9837750528892b3 by passenger: 67f421b8dcd88561858c78f5
+[2025-05-03T11:47:00.167Z] INFO: Journey booked: 68160234e9837750528892c0 by passenger: 67f421b8dcd88561858c78f5
+[2025-05-03T11:47:03.023Z] INFO: Multi-passenger payment order created: 68160236e9837750528892ca for 3 passengers
+[2025-05-03T11:57:48.693Z] INFO: Attempting to capture payment for order: 21X94073RU5224802
+[2025-05-03T11:57:51.096Z] INFO: Journey payment status updated: 68160233e9837750528892b3 to paid
+[2025-05-03T11:57:51.097Z] INFO: Journey payment status updated: 68160233e9837750528892a6 to paid
+[2025-05-03T11:57:51.098Z] INFO: Journey payment status updated: 68160234e9837750528892c0 to paid
+[2025-05-03T11:57:51.099Z] INFO: Payment captured successfully: 21X94073RU5224802 for 3 passengers
+[2025-05-03T12:16:59.295Z] INFO: Processing refund for payment 68160236e9837750528892ca
+[2025-05-03T12:17:02.171Z] INFO: Journey payment status updated: 68160233e9837750528892a6 to refunded
+[2025-05-03T12:17:02.172Z] INFO: Refund processed successfully: 59V58374124327459

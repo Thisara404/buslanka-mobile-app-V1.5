@@ -1,0 +1,109 @@
+{
+  "@@locale": "en",
+  "appTitle": "Bus Tracking",
+  "loginTitle": "Login",
+  "registerTitle": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "loginButton": "LOGIN",
+  "registerButton": "REGISTER",
+  "fullName": "Full Name",
+  "phoneNumber": "Phone Number",
+  "address": "Address",
+  "loginPrompt": "Don't have an account? Register now.",
+  "registerPrompt": "Already have an account? Login now.",
+  "passengerRole": "Passenger",
+  "driverRole": "Driver",
+  "routesTab": "Routes",
+  "nearbyTab": "Nearby",
+  "profileTab": "Profile",
+  "logoutButton": "Logout",
+  "settingsTitle": "Settings",
+  "languageSettings": "Language",
+  "notificationSettings": "Notifications",
+  "darkModeSettings": "Dark Mode",
+  "searchHint": "Search routes, stops...",
+  "favoritesTitle": "Favorite Routes",
+  "noFavorites": "No favorite routes yet.",
+  "nearbyRoutesTitle": "Nearby Routes",
+  "activeVehiclesTitle": "{count} active buses nearby",
+  "@activeVehiclesTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeDetailsTitle": "Route Details",
+  "schedulesTab": "Schedule",
+  "busesTab": "Buses",
+  "detailsTab": "Details",
+  "stopsTitle": "Stops ({count})",
+  "@stopsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "onTime": "On time",
+  "minutesLate": "{minutes} min late",
+  "@minutesLate": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "minutesEarly": "{minutes} min early",
+  "@minutesEarly": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "liveLabel": "LIVE",
+  "addToFavorites": "Add to favorites",
+  "removeFromFavorites": "Remove from favorites",
+  "viewOnMap": "View on map",
+  "distanceAway": "{distance} away",
+  "@distanceAway": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "noRoutesFound": "No routes found.",
+  "errorLoadingRoutes": "Error loading routes",
+  "tryAgain": "Try again",
+  "locationPermissionDenied": "Location permission is required for this feature.",
+  "locationDisabled": "Please enable location services to use this feature.",
+  "networkError": "Network error. Please check your connection.",
+  "offlineMode": "You're offline. Showing cached data.",
+  "unableToConnect": "Unable to connect to server",
+  "general": "General",
+  "settings": "Settings",
+  "language": "Language",
+  "theme": "Theme",
+  "selectTheme": "Select Theme",
+  "notifications": "Notifications",
+  "notificationsDescription": "Get notified about important updates",
+  "locationTracking": "Background Location Tracking",
+  "locationTrackingDescription": "Allow the app to track your location in the background",
+  "privacy": "Privacy",
+  "units": "Units",
+  "selectDistanceUnit": "Select Distance Unit",
+  "distanceUnit": "Distance Unit",
+  "arrivalAlert": "Arrival Alert Distance",
+  "driverSettings": "Driver Settings",
+  "passengerSettings": "Passenger Settings",
+  "etaPreference": "ETA Preference",
+  "clearData": "Clear App Data",
+  "cancel": "Cancel",
+  "clearDataConfirmation": "Are you sure you want to clear all app data? This cannot be undone.",
+  "clear": "Clear",
+  "clearAppData": "Clear App Data"
+}
